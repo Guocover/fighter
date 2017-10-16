@@ -8,5 +8,6 @@ H5 打飞机小游戏，相关技术 html、css、js、和canvas
 - 资源预加载和HTML5标签 audio 的使用
 
 ## 体验
+https://guocover.github.io/fighter/
 
 ![](http://7tszky.com1.z0.glb.clouddn.com/Fsea7d4Z3dxEO7RBAvfTdTzbjG0o)
