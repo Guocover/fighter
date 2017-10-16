@@ -9,4 +9,4 @@ H5 打飞机小游戏，相关技术 html、css、js、和canvas
 
 ## 体验
 
-![](http://7tszky.com1.z0.glb.clouddn.com/FgaHW8xZqIw2YJyA_nTACrD8-y-e)
+![](http://7tszky.com1.z0.glb.clouddn.com/Fsea7d4Z3dxEO7RBAvfTdTzbjG0o)
