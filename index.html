@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0;" >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>打飞机</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div class="ui-index">
+    <h1 class="title">飞机大作战</h1>
+    <div class="btns-group">
+      <button class="js-start btn">开始游戏</button>
+      <button class="js-setting btn">游戏设置</button>
+      <button class="js-rule btn">游戏说明</button>
+    </div>
+  </div>
+  <div class="ui-rule ui-panel">
+    <h2>游戏说明</h2>
+    <p>通过手指移动飞机，躲避敌人，通过子弹射击敌人得分，游戏无限时。消灭小型飞机得100分，消灭大型飞机得1000分。</p>
+    <button class="confirm-btn">我明白了</button>
+  </div>
+  <div class="ui-setting ui-panel">
+    <h2>游戏设置</h2>
+    <ul class="setting-group">
+      <li class="js-set-music setting">
+        <span class="setting-title">音乐设置</span>
+        <select id="setting-music">
+          <option value="1">开启音乐</option>
+          <option value="0">关闭音乐</option>
+        </select>
+        
+      </li>
+      <li class="js-set-background setting">
+        <span class="setting-title">背景设置</span>
+        <select id="setting-bg">
+          <option value="1">夜袭基地</option>
+          <option value="2">迷失古迹</option>
+          <option value="3">原始森林</option>
+          <option value="4">爆裂火山</option>
+        </select>
+      </li>
+      <li class="js-set-plane setting">
+        <span class="setting-title">战机设置</span>
+        <select id="setting-plane">
+          <option value="bluePlaneIcon">蓝色战机</option>
+          <option value="pinkPlaneIcon">粉红战机</option>
+        </select>
+      </li>
+    </ul>
+    <button class="js-setting-confirm confirm-btn">确认设置</button>
+  </div>
+  <div class="ui-result ui-panel">
+    <h2>游戏结束</h2>
+    <p class="text">你的<span class="score"></span></p>
+    <button class="confirm-btn">我知道了</button>
+  </div>
+  <span class="ui-score score"></span>
+  <!-- 依赖的文件 -->
+  <script src="js/jquery.js"></script>
+  <script src="js/resource.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/element.js"></script>
+  <script src="js/bullet.js"></script>
+  <script src="js/plane.js"></script>
+  <script src="js/enemy.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
